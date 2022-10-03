@@ -1,6 +1,8 @@
 package ru.netology.Homework_OOP_II;
 
 public class Radio {
+
+    public int quantityRadioStation;
     public int minRadioStation = 0;
     public int maxRadioStation = 9;
     public int currentRadioStation;
