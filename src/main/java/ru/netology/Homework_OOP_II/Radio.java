@@ -1,6 +1,8 @@
 package ru.netology.Homework_OOP_II;
 
 public class Radio {
+
+    public int quantityRadioStation;
     public int minRadioStation = 0;
     public int maxRadioStation = 9;
     public int currentRadioStation;
@@ -46,43 +48,6 @@ public class Radio {
 
 }
 
-
-//    public  int getCurrentRadioStation() { return currentRadioStation; }
-//    public int setCurrentRadioStation(int newCurrentRadioStation) {
-//        if (currentRadioStation < 0) {
-//            return maxRadioStation;
-//        }
-//        if (currentRadioStation > 9) {
-//            return minRadioStation;
-//        }
-//        return currentRadioStation = newCurrentRadioStation;
-//    }
-//
-//
-//    public int getCurrentVolume() { return currentVolume; }
-//
-//    public int setCurrentVolume(int newCurrentVolume) {
-//        if (currentVolume < 0) {
-//            return minVolume;
-//        }
-//        if (currentVolume > 10) {
-//            return maxVolume;
-//        }
-//        return newCurrentVolume;
-//    }
-//}
-//    public int currentRadioStation;
-//
-//    public void increaseRadioStation(int i) {
-//        if (currentRadioStation < 9) {
-//            currentRadioStation = currentRadioStation + 1;
-//        }
-//        if (currentRadioStation > 0) {
-//            currentRadioStation = currentRadioStation -1;
-//        }
-//    }
-//
-//    public int currentVolume;
 
 
 
